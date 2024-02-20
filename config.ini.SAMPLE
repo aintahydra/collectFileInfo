@@ -1,0 +1,16 @@
+[API_KEYS]
+VIRUS_TOTAL = _KEY_VALUE_WITHOUT_QUATATIONS_
+CENSYS_ID = _ID_WITHOUT_QUATATIONS_
+CENSYS_KEY = _KEY_VALUE_WITHOUT_QUATATIONS_
+
+[OPTIONS]
+# Print with ANSI Color?: 1 or 0
+PRINT_W_COLOR = 1
+# Lookup Whois for given IPs?: 1 or 01
+WHOIS_REPORT = 0
+# Lookup Censys for given IPs?: 1 or 0
+CENSYS_REPORT = 0
+# Lookup VT record for given executables?: 1 or 0
+VT_LOOKUP = 1
+# Print first bytes of the given file. (0: Do not print, N: print N bytes)
+PRINT_FILE_CONTENTS = 60
